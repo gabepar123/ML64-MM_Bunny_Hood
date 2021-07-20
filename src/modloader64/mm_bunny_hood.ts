@@ -23,4 +23,4 @@ class mm_bunny_hood implements IPlugin{
 
 }
 
-mo
+module.exports = mm_bunny_hood;
