@@ -18,7 +18,6 @@ class mm_bunny_hood implements IPlugin{
     onTick(frame?: number | undefined): void {
         if (!this.core.helper.isTitleScreen && this.core.helper.isSceneNumberValid)
             this.core.save.inventory.childTradeItem = InventoryItem.BUNNY_HOOD;
-            this.core.save.
     }
 
 }
